@@ -1,0 +1,19 @@
+{
+    "name": "js-test-bastards",
+    "type": "module",
+    "standard": {
+        "env": [ "jest" ]
+    },
+    "devDependencies": {
+        "jest": "^27.1.0"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@babel/core": "^7.15.0",
+        "@babel/preset-env": "^7.15.0",
+        "babel-jest": "^27.1.0"
+    }
+}
