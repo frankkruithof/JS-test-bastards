@@ -4,14 +4,20 @@ Validates javascript objects by comparing them with their schemas
 
 `npm install`
 
-Dependencies installeren
+Install dependencies
 
 
 `npm start`
 
-Om de validatie te starten
+Start validation 
 
 
 `npm test`
 
-Om de test te runnen
+Run tests
+
+### Tests
+
+1. Tests if object and schema parameters exist
+2. Validates valid object
+3. Validates invalid object 
