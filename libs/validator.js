@@ -34,6 +34,7 @@ export class Validator {
     return validation
   }
 
+  // Get type (extra check since typeof array returns object)
   getType (val) {
     return Array.isArray(val) ? 'array' : typeof val
   }
